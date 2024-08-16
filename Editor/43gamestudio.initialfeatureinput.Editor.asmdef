@@ -1,0 +1,16 @@
+{
+    "name": "43GAMEStudio.InitialFeature.Input.Editor",
+    "rootNamespace": "FTGAMEStudio.InitialSolution",
+    "references": [
+        "GUID:96e5c4d15653dd54187c38b36afddb17"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "com.43gamestudio.initialfeatureinput",
+  "version": "1.0.0",
+  "displayName": "Initial Feature - Input",
+  "description": "\u57fa\u4e8e UGUI \u7684 Input \u7cfb\u7edf\u3002\n\u672c\u5305\u9762\u5411\u79fb\u52a8\u5e73\u53f0\uff0c\u5c3d\u7ba1\u60a8\u53ef\u4ee5\u8fd9\u4e48\u505a\uff0c\u4f46\u8bf7\u4e0d\u8981\u5c1d\u8bd5\u57fa\u4e8e\u672c\u5305\u6784\u5efa\u684c\u9762\u5e73\u53f0\u7a0b\u5e8f\u3002",
+  "keywords": [
+    "Initial",
+    "Feature",
+    "Input"
+  ],
+  "author": {
+    "name": "43GAME Studio",
+    "email": "utsirt43@163.com"
+  },
+  "unity": "2019.1",
+  "dependencies": {
+    "com.43gamestudio.initialframework": "1.0.0",
+    "com.unity.ugui": "1.0.0"
+  }
+}
