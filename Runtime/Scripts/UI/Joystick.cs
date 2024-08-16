@@ -48,7 +48,7 @@ namespace FTGAMEStudio.InitialSolution.Inputs
             data.normalOffset = data.offset / Radius;
         }
 
-        public void UpdatePosition() => 
+        public void UpdatePosition() =>
             joystick.localPosition = Vector3.SmoothDamp(joystick.localPosition, target, ref currentVelocity, smoothTime);
 
         protected override void OnDisable()

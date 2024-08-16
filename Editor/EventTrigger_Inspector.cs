@@ -15,21 +15,21 @@ namespace FTGAMEStudio.InitialSolution.Inputs
 
             target.pointerEnter = EditorGUILayout.Toggle("Pointer Enter (Exit)", target.pointerEnter);
             if (target.pointerEnter)
-                target.onPointerEnter = 
+                target.onPointerEnter =
                     EditorGUILayout.ObjectField("输出到", target.onPointerEnter, typeof(PointerEventInput), false) as PointerEventInput;
 
             EditorGUILayout.Space();
 
             target.pointerDown = EditorGUILayout.Toggle("Pointer Down (Up)", target.pointerDown);
             if (target.pointerDown)
-                target.onPointerDown = 
+                target.onPointerDown =
                     EditorGUILayout.ObjectField("输出到", target.onPointerDown, typeof(PointerEventInput), false) as PointerEventInput;
 
             EditorGUILayout.Space();
 
             target.dragEvent = EditorGUILayout.Toggle("Drag Begin (End)", target.dragEvent);
             if (target.dragEvent)
-                target.onBeginDrag = 
+                target.onBeginDrag =
                     EditorGUILayout.ObjectField("输出到", target.onBeginDrag, typeof(PointerEventInput), false) as PointerEventInput;
 
             GUILayout.EndVertical();
