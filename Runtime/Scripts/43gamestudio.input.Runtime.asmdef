@@ -1,5 +1,5 @@
 {
-    "name": "43GAMEStudio.InitialFeature.Input.Runtime",
+    "name": "43GAMEStudio.Input.Runtime",
     "rootNamespace": "FTGAMEStudio.InitialSolution",
     "references": [
         "GUID:5f4eb5fd6d7b8d54888393a402f48526"
