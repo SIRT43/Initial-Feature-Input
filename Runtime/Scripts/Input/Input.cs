@@ -6,8 +6,8 @@ namespace FTGAMEStudio.InitialSolution.Inputs
 {
     public interface IOutputable<T> where T : class
     {
-        public void SetValue(T value);
-        public T GetValue();
+        void SetValue(T value);
+        T GetValue();
     }
 
     public abstract class Input : ScriptableObject
