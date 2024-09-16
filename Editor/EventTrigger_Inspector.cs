@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace FTGAMEStudio.InitialSolution.Inputs
+namespace InitialSolution.Inputs
 {
     [CustomEditor(typeof(EventTrigger))]
     public class EventTrigger_Inspector : Editor

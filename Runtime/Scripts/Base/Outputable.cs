@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace FTGAMEStudio.InitialSolution.Inputs
+namespace InitialSolution.Inputs
 {
     [RequireComponent(typeof(MaskableGraphic))]
     public abstract class Outputable<TData> : UIBehaviour, IOutputable<TData>

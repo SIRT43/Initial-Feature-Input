@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace FTGAMEStudio.InitialSolution.Inputs
+namespace InitialSolution.Inputs
 {
     [AddComponentMenu("Initial Solution/Inputs/Event Trigger")]
     public class EventTrigger : OutputableGraphic<PointerEventData>,

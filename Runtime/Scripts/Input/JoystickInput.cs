@@ -1,9 +1,8 @@
-using FTGAMEStudio.InitialFramework;
 using UnityEngine;
 
-namespace FTGAMEStudio.InitialSolution.Inputs
+namespace InitialSolution.Inputs
 {
-    public class JoystickData : IClearable
+    public class JoystickData
     {
         public Vector2 inputPosition;
         public Vector2 localPosition;

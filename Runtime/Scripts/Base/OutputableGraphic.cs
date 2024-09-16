@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FTGAMEStudio.InitialSolution.Inputs
+namespace InitialSolution.Inputs
 {
     [RequireComponent(typeof(CanvasRenderer))]
     public abstract class OutputableGraphic<TData> : MaskableGraphic, IOutputable<TData>

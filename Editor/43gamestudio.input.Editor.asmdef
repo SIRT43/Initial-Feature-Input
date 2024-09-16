@@ -1,6 +1,6 @@
 {
     "name": "43GAMEStudio.Input.Editor",
-    "rootNamespace": "FTGAMEStudio.InitialSolution",
+    "rootNamespace": "InitialSolution.Inputs",
     "references": [
         "GUID:96e5c4d15653dd54187c38b36afddb17"
     ],
