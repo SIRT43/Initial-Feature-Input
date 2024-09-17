@@ -43,7 +43,7 @@ namespace InitialSolution.Inputs
 
     public abstract class Input<T> : Input, IOutputable<T>
     {
-        public virtual void SetValue(T value) => SetValue(value);
+        public virtual void SetValue(T value) => base.SetValue(value);
 
         public new virtual T GetValue()
         {

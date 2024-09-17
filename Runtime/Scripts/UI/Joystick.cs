@@ -11,7 +11,7 @@ namespace InitialSolution.Inputs
         public RectTransform chassis;
 
         [Space]
-        [Min(0)] public float lerpT = 0.05f;
+        [Min(0)] public float lerpT = 40;
 
 
 
